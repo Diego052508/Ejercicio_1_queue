@@ -17,6 +17,8 @@ public class Main {
         clientes.offer("Pedro");
         clientes.offer("Sofía");
         clientes.offer("Miguel");
+        clientes.offer("Samuel");
+        clientes.offer("Diego");
 
         System.out.println("=== CLIENTES EN ESPERA ===");
         System.out.println("Cliente al frente de la cola: " + clientes.peek());
